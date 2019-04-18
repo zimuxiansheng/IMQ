@@ -28,9 +28,9 @@
           <li class="layui-nav-item">
             <a href="javascript:;">+新增</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-              <dd><a onClick="x_admin_show('首页链接','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>首页引导</a></dd>
-              <dd><a onClick="x_admin_show('接入秘钥','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>接入秘钥</a></dd>
-               <dd><a onClick="x_admin_show('后台用户','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>后台用户</a></dd>
+              <dd><a onClick="x_admin_show('首页链接','html/addLink.html', 500, 400)"><i class="iconfont">&#xe6a2;</i>首页引导</a></dd>
+              <dd><a onClick="x_admin_show('接入秘钥','html/addToken.html', 500, 400)"><i class="iconfont">&#xe6a8;</i>接入秘钥</a></dd>
+               <dd><a onClick="x_admin_show('后台用户','html/addUser.html', 500, 400)"><i class="iconfont">&#xe6b8;</i>后台用户</a></dd>
             </dl>
           </li>
         </ul>
@@ -38,7 +38,7 @@
           <li class="layui-nav-item">
             <a href="javascript:;">admin</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
-              <dd><a onClick="x_admin_show('个人信息','html/member-edit.html',600,400)">个人信息</a></dd>
+              <dd><a onClick="x_admin_show('修改密码','html/userInfo.html', 550,400)">修改密码</a></dd>
               <dd><a href="login.html">退出</a></dd>
             </dl>
           </li>
@@ -69,8 +69,8 @@
                     <i class="iconfont nav_right">&#xe6a7;</i>
                 </a>
                 <ul class="sub-menu">
-                    <li><a _href="html/unicode.html"><i class="iconfont">&#xe6a7;</i><cite>链接列表</cite></a></li>
-                    <li><a _href="html/form1.html"><i class="iconfont">&#xe6a7;</i><cite>接入级别</cite></a></li>
+                    <li><a _href="html/links.html"><i class="iconfont">&#xe6a7;</i><cite>链接列表</cite></a></li>
+                    <li><a _href="html/tokens.html"><i class="iconfont">&#xe6a7;</i><cite>接入级别</cite></a></li>
 
                 </ul>
             </li>
@@ -104,13 +104,13 @@
                         </a>
                     </li >
                     <li>
-                        <a _href="html/echarts2.html">
+                        <a _href="html/clearData.html">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>数据清理</cite>
                         </a>
                     </li>
                     <li>
-                        <a _href="html/echarts2.html">
+                        <a _href="html/records.html">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>访问日志</cite>
                         </a>
