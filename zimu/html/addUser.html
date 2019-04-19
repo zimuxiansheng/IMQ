@@ -29,8 +29,12 @@
         <form class="layui-form" action="" lay-filter="component-form-group">
           <div class="layui-form-item">
             <label class="layui-form-label">账号 </label>
-            <div class="layui-input-block">
-              <input type="text" name="url" lay-verify="title" autocomplete="off" placeholder="请输入账号" class="layui-input">
+            <div class="layui-input-inline">
+              <input type="text" id="L_email" name="username" required lay-verify="username"
+                     autocomplete="off" class="layui-input" disabled>
+            </div>
+            <div class="layui-form-mid layui-word-aux">
+              <span class="x-red">*</span>将会成为您唯一的登入名
             </div>
           </div>
           <div class="layui-form-item">
